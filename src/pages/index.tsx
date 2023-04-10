@@ -20,14 +20,12 @@ export const getStaticProps: GetStaticProps = async () => {
     'description',
     'thumbnail'
   ]);
-
   // retunr the posts props
   return { props: { posts } }
 }
 
 
 const Home: NextPage<Props> = ({ posts }: Props) => {
-  console.log(posts)
   return (
     <>
       <h1 className="text-4xl font-bold mb-4">Technical articles</h1>
