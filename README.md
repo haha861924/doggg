@@ -8,7 +8,7 @@ First, run the development server:
 yarn dev
 ```
 
-URL : https://doggg.vercel.app/ 
+URL : https://doggg.vercel.app/
 
 
 # package
@@ -21,11 +21,11 @@ URL : https://doggg.vercel.app/
 
 ### TODO
 - [x] post
-- [] posts
-- [] change theme
-- [] previos
-- [] resize
-- [] lazy-loding
-- [] search bar
-- [] visitor
+- [ ] posts
+- [ ] change theme
+- [ ] previos
+- [ ] resize
+- [ ] lazy-loding
+- [ ] search bar
+- [ ] visitor
 
