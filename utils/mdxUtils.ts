@@ -20,7 +20,7 @@ type Post = {
 }
 
 // path to our list of available posts
-const POSTS_PATH = join(process.cwd(),'_posts');
+const POSTS_PATH = join(process.cwd(), '_posts');
 
 // get the file paths of all available list of posts
 function getPostsFilePaths(): string[]{
