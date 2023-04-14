@@ -10,4 +10,37 @@ prerequisites:
   ]
 stacks: ['Next.js', 'TypeScript', 'Git']
 ---
-恭喜產生首篇文章
+
+#react #frontend
+
+# 建立 Component
+
+react component 可大可小，可以小成一個按鈕
+
+```javascript
+function Button () {
+	return <button>我只是一個按鈕</button>
+}
+```
+
+ 也可以大至一整個頁面
+```javascript
+
+ function App () {
+	return (
+		<div>
+			<h1>Welcome to React</h1>
+			<Button />
+		</div>
+	)
+ }
+
+export default App;
+```
+
+1. React component 的命名原則以大寫駝峰 (capital letter)，也就是首字母大寫為主。
+
+
+# 小默契
+## 命名原則
+1. 大寫駝峰 (capital letter)，也就是首字母大寫為主。
